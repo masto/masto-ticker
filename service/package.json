@@ -10,7 +10,7 @@
     "lint:fix": "eslint --cache --fix --max-warnings 0",
     "format": "prettier --check \"**/*.{ts,tsx,js,mjs,cjs,yaml,json,jsx,mdx}\" --cache",
     "format:fix": "prettier --write \"**/*.{ts,tsx,js,mjs,cjs,yaml,json,jsx,mdx}\" --cache",
-    "prepare": "husky"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
