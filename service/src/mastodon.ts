@@ -28,6 +28,7 @@ async function minimizeTimeline(
             content,
           },
     )
+    .filter(({ content }) => content.length > 0)
     .toArray();
 }
 
