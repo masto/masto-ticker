@@ -1,0 +1,2 @@
+# Avoid fighting pnpm over single quotes
+pnpm-lock.yaml
